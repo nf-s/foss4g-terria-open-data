@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet"
+		href="dist/reset.css" />
+	<link rel="stylesheet"
+		href="dist/reveal.css" />
+	<link rel="stylesheet"
+		href="dist/theme/black.css" />
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet"
+		href="plugin/highlight/monokai.css" />
+
+	<style>
+		.reveal section p,
+		.reveal section li {
+			font-size: 0.7em !important;
+		}
+
+		.reveal strong,
+		.reveal b {
+			color: rgb(255, 158, 111) !important
+		}
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown>
+				<textarea data-template>
+## Exploring the World’s Open Data Portals
+
+Discovery, Visualisation and Analysis of Open Data with TerriaJS
+
+<span style="font-weight: 100; font-size: 50%;">Nick Forbes-Smith &mdash; CSIRO's Data61 &mdash; Sydney/Hobart, Australia</span><br>
+
+<span style="font-weight: 100; font-size: 50%;"></span>https://nf-s.github.io/foss4g-terria-open-data/</span>		
+							</textarea>
+			</section>
+			<section>
+				<section data-markdown>
+					<textarea data-template>
+## CSIRO
+
+*Australia’s national science agency*
+
+<img src="img/csiro-shpeal.png" width="656px"></img>		
+					
+					</textarea>
+				</section>
+			</section>
+
+
+
+			<section>
+				<section data-markdown>
+					<textarea data-template>
+## Terria
+
+- An open-source framework for web-based geospatial catalogue explorers
+- **Cesium/Leaflet** based in-browser tool for looking at 2D and 3D data
+- Australian team working at CSIRO's Data61
+- Find us at [terria.io](http://terria.io/)
+					
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## NationalMap
+
+- Geospatial data discovery, visualisation and sharing
+- Launched 2014 to support Aus Gov Open Data Policy
+- 14,000+ datasets, 30,000+ sessions/month
+	
+<img src="img/natmap.png" width="700px"></img>		
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## NSW Digital Twin
+
+*"An ecosystem of platforms, infrastructure, data, and information management governance arrangement"*
+
+- Lead by Department of Customer Service, Spatial Services (NSW)
+- Our first in bringing together 2D, 3D, 4D geospatial + BIM, IoT/sensor data
+	
+<img src="img/nswdt.png" width="700px"></img>		
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## QLD DT Prototype
+
+- Department of resources (QLD) and Advance QLD
+- Some "richer" datasets
+	
+<img src="img/qlddt.jpg" width="900px"></img>		
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## Vic Digital Twin
+
+- VIC Department of Environment land water and planning recently announced their **Digital Twin Victoria Program**
+- Just launched
+	
+<img src="img/vicdt.jpg" width="800px"></img>		
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## Digital Earth Aus/Africa
+
+- **Landsat/Sentinel satellite imagery**
+- Satellite imagery derived products and "analysis ready data"
+- Heavily integrated with **OpenDataCube**
+	
+<img src="img/demaps.jpg" width="800px"></img>		
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## PacificMap
+
+- **Pacific Data Hub (PDH) and the Pacific Community Secretariat (SPC)**
+- CKAN and SDMX
+	
+<img src="img/pacmap-sdmx.png" width="800px"></img>		
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## GEO-RAPP
+
+...
+	
+<img src="img/pacmap-sdmx.png" width="800px"></img>		
+					</textarea>
+				</section>
+
+
+			</section>
+
+
+
+			<section>
+				<section data-markdown>
+					<textarea data-template>
+## Terria connectors
+
+*All in a web browser*
+
+- Imagery (tiled services)
+- Vector
+- 3D
+- Tabular/Sensor
+- Portals
+				</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## Imagery
+
+- **WMS/WMTS/XYZ sources**
+  - Tight integration with OpenDataCube OWS
+- MapboxStyle/Carto/BingMaps
+- ArcGis Imagery/Map Service
+					
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## Vector sources
+
+- **Web Feature Service**/ArcGis Feature Service
+- **GeoJson**/Shapefile/**KML/CZML/GPX/GeoRSS**
+- **Mapbox Vector Tiles**
+					
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## 3D sources
+
+- **Cesium 3d-tiles**
+- **Cesium Terrain**
+- **CZML**
+- **GLTF**
+- Converter for 40+ file formats
+  - `assimpjs`: WebAssembly **Open Asset Import Library** 
+					
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## Tabular/Sensor
+
+- **CSV**
+- **SDMX**
+- **SensorObservationService**
+- **Socrata**
+- OpenDataSoft		
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## Portals
+
+- **CKAN**
+- **CSW**
+- **Socrata**
+- OpenDataSoft
+- **Magda**
+- **THREDDS**
+- **WMS/WFS/WPS**
+- ArcGis
+- ArcGis Portal + Map/Feature Service
+- **SDMX**		
+					</textarea>
+				</section>
+			</section>
+
+			<section data-markdown>
+				<textarea data-template>
+## What I do
+
+Sydney, Australia
+
+Software Engineer for TerriaJS
+
+- 2D data visualisation
+    - vector
+    - raster
+    - tabular/sensor/point based
+- API/portal connections
+    - OGC - WMS, WFS, WPS, CSW, SOS
+    - THREDDS
+    - Socrata
+    - OpenDataSoft
+    - SDMX
+				
+				</textarea>
+			</section>
+
+
+			<section>
+				<section data-markdown>
+					<textarea data-template>
+## NationalMap 
+
+- 46 open data portals
+- (1105 curated datasets)
+
+Total 14,000+ datasets
+
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## NationalMap open data portals
+
+- **7** WMS — *imagery*
+- **18** OpenDataSoft — *tabular*
+- **1** SDMX — *tabular*
+- **2** WFS — *vector*
+- **1** WPS — *analytics*
+- **11** ArcGis — *imagery/vector*
+- **5** CKAN — *imagery/vector*
+- **1** CSW — *imagery/vector*
+
+Total 13,000+ datasets
+
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## Explore the open data
+
+- Discovery
+- Visualisation
+- Analysis
+- Create/share maps with the world!
+
+					</textarea>
+				</section>
+			</section>
+
+
+			<section data-markdown>
+				<textarea data-template>
+## Discovery
+
+- Search / indexing
+- Catalog structure
+- Query open data portals
+					</textarea>
+			</section>
+
+
+
+			<section data-markdown>
+				<textarea data-template>
+## Visualisation
+
+- Imagery
+- Tabular data
+- Vector data
+- 3D?
+					</textarea>
+			</section>
+
+
+
+			<section>
+				<section data-markdown>
+					<textarea data-template>
+## Imagery
+
+- Time-series
+  - Animation over time
+- Compare
+- Export
+- Open data cube 
+	- Filter by location
+	- Difference
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## Time-series
+
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## Compare
+
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## Export (WCS)
+
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## Open data cube: Filter by location
+
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## Open data cube: Difference
+
+					</textarea>
+				</section>
+			</section>
+
+
+
+			<section>
+				<section data-markdown>
+					<textarea data-template>
+## Vector data
+
+- Automatic styling
+- Filtering*
+- Edit styling
+- Export
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## Automatic styling
+
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## Filtering*
+
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## Edit styling
+
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+## Export
+
+					</textarea>
+				</section>
+			</section>
+
+
+
+			<section>
+				<section data-markdown>
+					<textarea data-template>
+## Tabular data
+
+- Region mapping
+- Time-series
+- *Automatic styling*
+- *Filtering**
+- *Edit styling*
+- *Export*
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## Region mapping
+
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## Time-series
+
+					</textarea>
+				</section>
+			</section>
+
+
+
+			<section data-markdown>
+				<textarea data-template>
+## Analysis
+
+- Browser tools
+- Web Processing Service
+- Open data cube - difference tool
+					</textarea>
+			</section>
+
+
+
+			<section data-markdown>
+				<textarea data-template>
+## Create/share maps with the world!
+
+- Share links
+- Stories
+					</textarea>
+			</section>
+
+
+
+			<section data-markdown>
+				<textarea data-template>
+## How?
+
+Open source libraries
+				
+				</textarea>
+			</section>
+
+
+
+			<section data-markdown>
+				<textarea data-template>
+					## Region mapping
+						
+<img src="img/regionmap.png"
+width="600px" style="margin: 5px;"></img>
+- Vector tile based
+- Matches region geometry to rows in a table
+- Terria supports over 100 region sets
+				</textarea>
+			</section>
+			</section>
+
+
+			<section data-markdown>
+				<textarea data-template>
+Demo
+				
+				</textarea>
+			</section>
+
+			<section data-markdown>
+				<textarea data-template>
+## Fin
+
+- [NationalMap](https://nationalmap.gov.au) - nationalmap.gov.au
+- [PacificMap](https://map.pacificdata.org) - map.pacificdata.org
+				
+				</textarea>
+			</section>
+
+		</div>
+	</div>
+	213.244.242.6
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+		});
+	</script>
+</body>
+
+</html>
