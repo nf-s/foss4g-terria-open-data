@@ -57,7 +57,7 @@ Discovery, Visualisation and Analysis of Open Data with TerriaJS
 
 *Australia’s national science agency*
 
-<img src="img/csiro-shpeal.png" width="656px"></img>		
+<img src="img/csiro-shpeal.jpg" width="656px"></img>		
 					
 					</textarea>
 				</section>
@@ -80,9 +80,23 @@ Discovery, Visualisation and Analysis of Open Data with TerriaJS
 
 				<section data-markdown>
 					<textarea data-template>
+## Terria
+
+- Catalog
+- Map
+- Data controls
+
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
 ## Catalog
 
 - Tree structure
+- Search
+
+<img src="img/catalog.jpg" width="700px"></img>		
 					
 					</textarea>
 				</section>
@@ -92,6 +106,9 @@ Discovery, Visualisation and Analysis of Open Data with TerriaJS
 ## Map!
 
 - 3D with 2D fallback
+
+<img src="img/map.jpg" width="700px"></img>
+
 					
 					</textarea>
 				</section>
@@ -101,8 +118,9 @@ Discovery, Visualisation and Analysis of Open Data with TerriaJS
 ## Data controls
 
 - Workbench
-- Panels
-- Tools
+- Panels/Tools
+
+<img src="img/workbench.jpg" width="700px"></img>
 					
 					</textarea>
 				</section>
@@ -113,7 +131,9 @@ Discovery, Visualisation and Analysis of Open Data with TerriaJS
 
 - Leaflet (2D) / Cesium (3D)
 - React / mobX
-- 
+- Protomaps.js (vector tiles)
+- d3, turf.js
+- TypeScript
 					
 					</textarea>
 				</section>
@@ -124,10 +144,14 @@ Discovery, Visualisation and Analysis of Open Data with TerriaJS
 			<section>
 				<section data-markdown>
 					<textarea data-template>
-## Made with Terria
+## Our maps
 
-- "Open" maps - Open data portal focus - client-side heavy
-- DigitalTwin - 3D data focus - closed/proprietary - server-side heavy
+- **Open** - Open data portal focus 
+	- client-side heavy
+- **Closed** - Digital twin
+	- 3D data focus 
+	- closed/proprietary formats
+	- server-side heavy
 					</textarea>
 				</section>
 
@@ -135,136 +159,144 @@ Discovery, Visualisation and Analysis of Open Data with TerriaJS
 					<textarea data-template>
 ## Open maps
 
-- "Open" maps - Open data portal focus - client-side heavy
-- All using same code-base - just configuration!
+- Open data portal focus - client-side heavy
+- All using same open-source code-base - just configuration!
 					</textarea>
 				</section>
 
-				<section data-markdown>
+				<section data-markdown
+					data-transition="slide-in fade-out">
 					<textarea data-template>
 ## NationalMap
 
-- Geospatial data discovery, visualisation and sharing
 - Launched 2014 to support Aus Gov Open Data Policy
 - 14,000+ datasets, 30,000+ sessions/month
 	
-<img src="img/natmap.png" width="700px"></img>		
+<img src="img/natmap.jpg" width="700px"></img>		
 					</textarea>
 				</section>
-				<section data-markdown>
+				<section data-markdown
+					data-transition="fade">
 					<textarea data-template>
 ## NationalMap Open Data
+
+<a href="https://nationalmap.gov.au/">nationalmap.gov.au</a>
 
 - 46 open data portals
 - (1105 curated datasets)
 
-Total 14,000+ datasets
+**Total 14,000+ datasets**
 
 					</textarea>
 				</section>
-				<section data-markdown>
+
+				<section data-markdown
+					data-transition="fade">
 					<textarea data-template>
-## Example
+## NationalMap catalog
 
-Image of home screen
+<a href="https://nationalmap.gov.au/">nationalmap.gov.au</a>
 
+<img src="img/catalog.jpg" width="900px"></img>		
 					</textarea>
 				</section>
 
-				<section data-markdown>
+				<section data-markdown
+					data-transition="fade">
 					<textarea data-template>
-## Example
+## NationalMap data
 
-Image of catalog
+<a href="https://nationalmap.gov.au/">nationalmap.gov.au</a>
 
-					</textarea>
-				</section>
 
-				<section data-markdown>
-					<textarea data-template>
-## Example
-
-Image of SDMX catalog group
+<img src="img/natmap-energy.jpg" width="900px"></img>		
 
 					</textarea>
 				</section>
 
-				<section data-markdown>
-					<textarea data-template>
-## Example
-
-Loaded time-series with chart
-
-					</textarea>
-				</section>
-
-				<section data-markdown>
+				<section data-markdown
+					data-transition="slide-in fade-out">
 					<textarea data-template>
 ## Digital Earth Aus/Africa
 
+<a href="maps.dea.ga.gov.au">maps.dea.ga.gov.au</a> + <a href="maps.digitalearth.africa">maps.digitalearth.africa</a>
+
+- With Geoscience Australia
 - **Landsat/Sentinel satellite imagery**
 - Satellite imagery derived products and "analysis ready data"
-- Heavily integrated with **OpenDataCube**
+- Integrated with **OpenDataCube** OWS
 	
 <img src="img/demaps.jpg" width="800px"></img>		
 					</textarea>
 				</section>
 
-				<section data-markdown>
+				<section data-markdown
+					data-transition="fade">
 					<textarea data-template>
 ## Digital Earth Australia
 
-Show time series imagery
+<a href="https://maps.dea.ga.gov.au/story/DEALandCover">maps.dea.ga.gov.au/story/DEALandCover</a>
 
+<img src="img/dea-aus-landcover.jpg" width="800px"></img>		
 					</textarea>
 				</section>
 
-				<section data-markdown>
+				<section data-markdown
+					data-transition="slide-in fade-out">
 					<textarea data-template>
 ## PacificMap
 
-- **Pacific Data Hub (PDH) and the Pacific Community Secretariat (SPC)**
-- CKAN and SDMX
+- With **Secretariat of the Pacific Community (SPC)**
+- Integrated with *Pacific Data Hub (PDH)* - CKAN and SDMX
 	
-<img src="img/pacmap-sdmx.png" width="800px"></img>		
+<img src="img/pacmap-sdmx.jpg" width="800px"></img>		
 					</textarea>
 				</section>
 
-				<section data-markdown>
+				<section data-markdown
+					data-transition="fade">
 					<textarea data-template>
 ## PacificMap
 
-Show some geojson
+<a href="https://map.pacificdata.org/">map.pacificdata.org</a>
+
+<img src="img/pacmap-geojson.jpg" width="800px"></img>		
 
 					</textarea>
 				</section>
 
-				<section data-markdown>
+				<section data-markdown
+					data-transition="slide-in fade-out">
 					<textarea data-template>
 ## GEO-RAPP
 
-...
+<a href="https://map.geo-rapp.org/">map.geo-rapp.org</a>
+
+- Group on Earth Observations Global Agricultural Monitoring (GEOGLAM)
 	
-<img src="img/pacmap-sdmx.png" width="800px"></img>		
+<img src="img/geo-rapp.jpg" width="700px"></img>
 					</textarea>
 				</section>
 
-				<section data-markdown>
+				<section data-markdown
+					data-transition="fade">
 					<textarea data-template>
 ## GEO-RAPP
 
-Show satellite imagery and WPS
+<a href="https://map.geo-rapp.org/">map.geo-rapp.org</a>
+
+<img src="img/geo-rapp-wps.jpg" width="800px"></img>	
 
 					</textarea>
 				</section>
 			</section>
 
-
-
 			<section>
 				<section data-markdown>
 					<textarea data-template>
-## DigitalTwins
+## Digital Twins
+
+**Bringing together 2D, 3D + time-series geospatial with BIM, IoT/sensor data**
 
 - Three largest states in Australia
 - More "closed"
@@ -272,32 +304,28 @@ Show satellite imagery and WPS
 - Format conversions
 - Proprietary formats
 - Enterprise auth / access control
-- More curated catalog
 - Not really discussed in this talk
 
 					</textarea>
 				</section>
 
-				<section data-markdown>
+				<section data-markdown
+					data-transition="slide-in fade-out">
 					<textarea data-template>
-## Digital Twins for Australian State Governments
+## Victoria Digital Twin
 
-- New South Wales
-- Queensland
-- Victoria - **just launched!**
+Just Launched - <a href="vic.digitaltwin.terria.io">vic.digitaltwin.terria.io</a>
 
-- Bringing together 2D, 3D + time-series geospatial with BIM, IoT/sensor data
-	
 <img src="img/vicdt.jpg" width="800px"></img>		
 					</textarea>
 				</section>
 
-				<section data-markdown>
+				<section data-markdown
+					data-transition="fade">
 					<textarea data-template>
 ## Vic Digital Twin
 
-Add video
-
+<video data-autoplay src="videos/greatoceanroad_VP9.webm" class="center"></video>
 					</textarea>
 				</section>
 			</section>
@@ -311,7 +339,7 @@ Add video
 
 - Imagery (tiled services)
 - Vector
-- 3D (*not in this talk*)
+- 3D
 - Tabular/Sensor
 - Portals
 				</textarea>
@@ -345,7 +373,7 @@ Add video
 - **Cesium Terrain**
 - **CZML**
 - **GLTF**
-- Converter for 40+ file formats
+- Converter for 40+ 3D file formats
   - `assimpjs`: WebAssembly **Open Asset Import Library** 
 					
 					</textarea>
@@ -427,6 +455,15 @@ Software Engineer for TerriaJS
 
 					</textarea>
 				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## Warning
+
+Lots of small demo video clips to follow...
+
+					</textarea>
+				</section>
 			</section>
 
 
@@ -446,10 +483,10 @@ Software Engineer for TerriaJS
 ## Catalog
 
 - Tree-structure
-- Groups curated datasets
-- Open data portals can create groups
+  - Groups - for curated datasets
+  - Open data portals
 
-!!VID
+<video data-autoplay src="videos/catalog_VP9.webm" class="center"></video>
 					</textarea>
 				</section>
 
@@ -460,7 +497,7 @@ Software Engineer for TerriaJS
 - Follows catalog tree-structure, but provides way to search through datasets
 - Depends on API... (eg might group datasets by subject, etc)
 
-!!VID
+<video data-autoplay src="videos/query-data-portals_VP9.webm" class="center"></video>
 					</textarea>
 				</section>
 
@@ -472,7 +509,7 @@ Software Engineer for TerriaJS
 - Dynamic in-browser search
 - Catalog index
 
-!!VID
+<video data-autoplay src="videos/search_VP9.webm" class="center"></video>
 					</textarea>
 				</section>
 			</section>
@@ -486,10 +523,9 @@ Software Engineer for TerriaJS
 - Imagery
 - Tabular data
 - Vector data
-- 3D?
+- 3D (not in this talk)
 					</textarea>
 			</section>
-
 
 
 			<section>
@@ -500,9 +536,18 @@ Software Engineer for TerriaJS
 - Time-series
   - Animation over time
 - Compare
-- Export
 - Open data cube 
 	- Filter by location
+- Export (WCS)
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## Imagery
+
+<video data-autoplay src="videos/imagery-opacity_VP9.webm" class="center"></video>
+
 					</textarea>
 				</section>
 
@@ -510,34 +555,46 @@ Software Engineer for TerriaJS
 					<textarea data-template>
 ## Time-series
 
-<video data-autoplay src="videos/imagery-compare_VP9.webm" class="center"></video>
+<video data-autoplay src="videos/imagery-time_VP9.webm" class="center"></video>
 
 					</textarea>
 				</section>
 
 				<section data-markdown>
 					<textarea data-template>
-## Time-series - animation
+## Time-series - picker
 
-<video data-autoplay src="videos/imagery-compare_VP9.webm" class="center"></video>
+<video data-autoplay src="videos/imagery-time-picker_VP9.webm" class="center"></video>
 
 					</textarea>
 				</section>
+
 				<section data-markdown>
 					<textarea data-template>
 ## Compare
 
+<video data-autoplay src="videos/
+imagery-compare_VP9.webm" class="center"></video>
+
 					</textarea>
 				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## ODC: Filter by location
+
+<video data-autoplay src="videos/
+imagery-filter_VP9.webm" class="center"></video>
+
+					</textarea>
+				</section>
+
 				<section data-markdown>
 					<textarea data-template>
 ## Export (WCS)
 
-					</textarea>
-				</section>
-				<section data-markdown>
-					<textarea data-template>
-## Open data cube: Filter by location
+<video data-autoplay src="videos/
+imagery-export_VP9.webm" class="center"></video>
 
 					</textarea>
 				</section>
@@ -552,7 +609,6 @@ Software Engineer for TerriaJS
 ## Vector data
 
 - Automatic styling
-- Filtering*
 - Edit styling
 - Export as GeoJSON
 					</textarea>
@@ -562,66 +618,50 @@ Software Engineer for TerriaJS
 					<textarea data-template>
 ## Automatic styling
 
-					</textarea>
-				</section>
-
-				<section data-markdown>
-					<textarea data-template>
-## Filtering*
+<video data-autoplay src="videos/
+vector-styling_VP9.webm" class="center"></video>
 
 					</textarea>
 				</section>
+
 				<section data-markdown>
 					<textarea data-template>
 ## Edit styling
 
-					</textarea>
-				</section>
-				<section data-markdown>
-					<textarea data-template>
-## Export
+<video data-autoplay src="videos/
+edit-style-line_VP9.webm" class="center"></video>
 
 					</textarea>
 				</section>
 			</section>
-
-
 
 			<section>
 				<section data-markdown>
 					<textarea data-template>
 ## Tabular data
 
-- Region mapping
-- Edit region mapping
 - Time-series
-- *Automatic styling / Edit styling*
-- *Export* as CSV
-					</textarea>
-				</section>
-
-				<section data-markdown>
-					<textarea data-template>
-## Region mapping
-	
-<img src="img/regionmap.png"
-width="600px" style="margin: 5px;"></img>
-- Vector tile based
-- Matches region geometry to rows in a table
-- Terria supports over 100 region sets
-					</textarea>
-				</section>
-
-				<section data-markdown>
-					<textarea data-template>
-## Edit region mapping
-
+  - Charting
+- Automatic styling / Edit styling
+- Region mapping
+- Export as CSV
 					</textarea>
 				</section>
 
 				<section data-markdown>
 					<textarea data-template>
 ## Time-series
+
+<video data-autoplay src="videos/tabular-time_VP9.webm" class="center"></video>
+
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## Time-series charts
+
+<video data-autoplay src="videos/time-series-chart_VP9.webm" class="center"></video>
 
 					</textarea>
 				</section>
@@ -630,6 +670,30 @@ width="600px" style="margin: 5px;"></img>
 					<textarea data-template>
 ## Automatic styling / Edit styling
 
+<video data-autoplay src="videos/tabular-edit-style_VP9.webm" class="center"></video>
+
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+	## Region mapping
+	
+	<img src="img/regionmap.jpg"
+	width="600px" style="margin: 5px;"></img>
+	- Vector tile based
+	- Matches region geometry to rows in a table
+	- Terria supports over 100 region sets (mostly Australian)
+	- We provide a tool to generate your own from SHP/GeoJSON
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+	## Region mapping example
+	
+	<video data-autoplay src="videos/
+	region-map-time_VP9.webm" class="center"></video>
 					</textarea>
 				</section>
 
@@ -642,16 +706,33 @@ width="600px" style="margin: 5px;"></img>
 					<textarea data-template>
 ## 3D
 
-- Not much open data available (in forms Terria supports)
+Not much open data available + No support through data portals
 					</textarea>
 				</section>
 
-				<section data-markdown>
+				<!-- <section data-markdown>
 					<textarea data-template>
 ## 3D examples
 
 					</textarea>
 				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## 3D Compare
+
+<video data-autoplay src="videos/
+imagery-compare_VP9.webm" class="center"></video>
+
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## 3D clipping
+
+					</textarea>
+				</section> -->
 
 			</section>
 
@@ -661,7 +742,13 @@ width="600px" style="margin: 5px;"></img>
 					<textarea data-template>
 ## Analysis
 
+- Export*
+  - WCS Export
+  - Vector/Tabular export
+- Compare*
 - Terria tools
+  - Measure
+  - More to come...
 - Web Processing Service
 - Open data cube - difference tool
 					</textarea>
@@ -669,26 +756,17 @@ width="600px" style="margin: 5px;"></img>
 
 				<section data-markdown>
 					<textarea data-template>
-## Terria tool: measure
-					</textarea>
-				</section>
+## Links...
 
-				<section data-markdown>
-					<textarea data-template>
-## Web Processing Service
-					</textarea>
-				</section>
+Open data cube - difference tool  
+https://userguide.terria.io/interactions-functionalities-and-workflows#change-detection-delta-workflow
 
-				<section data-markdown>
-					<textarea data-template>
-## Open data cube - difference tool
-
-Integrated with Open Data Cube WMS
+WPS  
+https://www.youtube.com/watch?v=ZeiQjLSK2GA
 					</textarea>
 				</section>
 
 			</section>
-
 
 			<section>
 				<section data-markdown>
@@ -696,6 +774,7 @@ Integrated with Open Data Cube WMS
 ## Create/share maps with the world!
 
 - Share links
+- Embed
 - Stories
 					</textarea>
 				</section>
@@ -704,7 +783,22 @@ Integrated with Open Data Cube WMS
 					<textarea data-template>
 ## Share links
 
-- 
+- Generates unique URL
+- Saves all changes you have made (eg custom styling)
+
+<img src="img/share.jpg" width="700px"></img>		
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+## Embed
+
+- Embeddable share link
+- Embed into your own page
+
+
+<img src="img/embed.jpg" width="700px"></img>		
 					</textarea>
 				</section>
 
@@ -712,7 +806,9 @@ Integrated with Open Data Cube WMS
 					<textarea data-template>
 ## Stories
 
-- 
+- Share link with multiple "scenes"
+
+<video data-autoplay src="videos/story_VP9.webm" class="center"></video>
 					</textarea>
 				</section>
 			</section>
@@ -745,8 +841,9 @@ What about my open data?
 
 				<section data-markdown>
 					<textarea data-template>
-## Open data portals (zero config*)
+## Data portals (zero config**\***)
 
+<video data-autoplay src="videos/add-web-data_VP9.webm" class="center"></video>
 				</textarea>
 				</section>
 
@@ -754,8 +851,8 @@ What about my open data?
 					<textarea data-template>
 ## Drag and drop
 
-- Vector/tabular data
-				
+<video data-autoplay src="videos/drag-drop-geojson_VP9.webm" class="center"></video>
+
 				</textarea>
 				</section>
 			</section>
@@ -766,7 +863,9 @@ What about my open data?
 					<textarea data-template>
 ## Create your own map!
 
-All our open maps are the same Terria with JSON config!
+All our open maps are the same Terria with different configuration!
+
+<a href="github.com/TerriaJS/TerriaMap">github.com/TerriaJS/TerriaMap</a>
 				
 				</textarea>
 				</section>
@@ -790,7 +889,7 @@ All our open maps are the same Terria with JSON config!
 ## Extend Terria
 
 - New plugin system
-- Develop your own catalog items/groups
+- Develop your own data sources
 - Not today...
 				
 				</textarea>
@@ -800,28 +899,15 @@ All our open maps are the same Terria with JSON config!
 				<textarea data-template>
 ## Future plans
 
-- Search by location
+- Search datasets by location
 - User workflows to add more complex data
+  - Edit region mapping
 - More advanced visualisation
   - 3D symbology
 - 3D open data?
-
 				
 				</textarea>
 			</section>
-
-			<section data-markdown>
-				<textarea data-template>
-## Future plans - Discovery
-
-- Limited by browser
-- Sub-search
-- Integration with open data portal search API
-- Search by location
-- Filter by types
-				</textarea>
-			</section>
-
 
 			<section data-markdown>
 				<textarea data-template>
@@ -829,12 +915,16 @@ All our open maps are the same Terria with JSON config!
 
 **Get it touch**
 
-- terria.io
-- GitHub discussions
+- <a href="https://terria.io">terria.io</a>
+- <a href="github.com/TerriaJS/terriajs/discussions">github.com/TerriaJS/terriajs/discussions</a>
 
-**Links**
-- [NationalMap](https://nationalmap.gov.au) - nationalmap.gov.au
-- [PacificMap](https://map.pacificdata.org) - map.pacificdata.org
+**Maps**
+- <a href="nationalmap.gov.au">nationalmap.gov.au</a>
+- <a href="vic.digitaltwin.terria.io">vic.digitaltwin.terria.io</a>
+- <a href="maps.dea.ga.gov.au">maps.dea.ga.gov.au</a>
+- <a href="maps.digitalearth.africa">maps.digitalearth.africa</a>
+- <a href="map.pacificdata.org">map.pacificdata.org</a>
+- <a href="https://map.geo-rapp.org/">map.geo-rapp.org</a>
 				
 				</textarea>
 			</section>

@@ -1,8 +1,8 @@
 .reveal img,
 .reveal video,
 .reveal iframe {
-  max-width: 90vw;
-  max-height: 64vh;
+  width: -webkit-fill-available;
+  max-height: unset;
 }
 
 .center {
