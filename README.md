@@ -5,7 +5,7 @@ Presented at [FOSS4G Firenze 2022](https://2022.foss4g.org/index.php) in Firenze
 ### Slides
 
 - [pptx](https://docs.google.com/presentation/d/1K1w_ktckjRWt4dV43rVU43B41R1Dp8Td/edit?usp=sharing&ouid=114550549530964296730&rtpof=true&sd=true)
-- [pdf](nick-forbessmith-terria-state.pdf) **doesn't contain video clips**
+- [pdf](https://github.com/nf-s/foss4g-terria-open-data/blob/main/nick-forbessmith-terria-open-data.pdf) **doesn't contain video clips**
 
 ### Video
 
