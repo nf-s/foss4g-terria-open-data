@@ -9,7 +9,7 @@ Presented at [FOSS4G Firenze 2022](https://2022.foss4g.org/index.php) in Firenze
 
 ### Video
 
-Link will be added when available
+https://www.youtube.com/watch?v=3K1dRDgfyio
 
 ## Description
 
